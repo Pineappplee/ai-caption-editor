@@ -1,0 +1,213 @@
+- generic [ref=e1]:
+  - generic [ref=e260]:
+    - iframe [ref=e305]:
+      - generic [ref=f38e4]:
+        - complementary [ref=f38e5]:
+          - generic [ref=f38e6]:
+            - img [ref=f38e8]
+            - generic [ref=f38e11]: AI Caption Editor
+          - navigation [ref=f38e12]:
+            - generic [ref=f38e13]: AI Tools
+            - button "Smart Trim" [ref=f38e14]:
+              - img
+              - text: Smart Trim
+            - button "Auto Caption" [ref=f38e15]:
+              - img
+              - text: Auto Caption
+            - button "Translate" [ref=f38e16]:
+              - img
+              - text: Translate
+            - button "Transcribe" [ref=f38e17]:
+              - img
+              - text: Transcribe
+            - button "Enhance" [ref=f38e18]:
+              - img
+              - text: Enhance
+          - generic [ref=f38e19]:
+            - generic [ref=f38e20]: Workspace
+            - button "Project" [ref=f38e21]:
+              - img
+              - text: Project
+            - button "Edit" [ref=f38e22]:
+              - img
+              - text: Edit
+            - button "Export" [ref=f38e23]:
+              - img
+              - text: Export
+            - button "Settings" [ref=f38e24]:
+              - img
+              - text: Settings
+        - main [ref=f38e25]:
+          - generic [ref=f38e26]:
+            - heading "Media & Assets" [level=1] [ref=f38e27]
+            - button "Import" [ref=f38e28]:
+              - img
+              - text: Import
+          - generic [ref=f38e29]:
+            - generic [ref=f38e30]:
+              - img [ref=f38e31]
+              - textbox "Search media..." [ref=f38e34]
+            - generic [ref=f38e35]:
+              - button [ref=f38e36]:
+                - img
+              - button [ref=f38e37]:
+                - img
+            - button "All Types" [ref=f38e38]:
+              - img
+              - text: All Types
+              - img
+          - generic [ref=f38e39]:
+            - generic [ref=f38e41]: Recent Uploads
+            - generic [ref=f38e43]:
+              - generic [ref=f38e44]:
+                - generic [ref=f38e45]:
+                  - img [ref=f38e46]
+                  - button [ref=f38e48]:
+                    - img [ref=f38e49]
+                - generic [ref=f38e53]:
+                  - generic [ref=f38e54]:
+                    - generic [ref=f38e55]: interview_final.mp4
+                    - generic [ref=f38e56]: MP4
+                  - generic [ref=f38e57]: 4m 15s
+              - generic [ref=f38e58]:
+                - generic [ref=f38e59]:
+                  - img [ref=f38e60]
+                  - button [ref=f38e61]:
+                    - img [ref=f38e62]
+                - generic [ref=f38e66]:
+                  - generic [ref=f38e67]:
+                    - generic [ref=f38e68]: voiceover_take3.wav
+                    - generic [ref=f38e69]: WAV
+                  - generic [ref=f38e70]: 18.2 MB
+              - generic [ref=f38e71]:
+                - generic [ref=f38e72]:
+                  - img [ref=f38e73]
+                  - button [ref=f38e76]:
+                    - img [ref=f38e77]
+                - generic [ref=f38e81]:
+                  - generic [ref=f38e82]:
+                    - generic [ref=f38e83]: captions_en.srt
+                    - generic [ref=f38e84]: SRT
+                  - generic [ref=f38e85]: 12 KB
+              - generic [ref=f38e86]:
+                - generic [ref=f38e87]:
+                  - img [ref=f38e88]
+                  - button [ref=f38e90]:
+                    - img [ref=f38e91]
+                - generic [ref=f38e95]:
+                  - generic [ref=f38e96]:
+                    - generic [ref=f38e97]: promo_clip_v2.mp4
+                    - generic [ref=f38e98]: MP4
+                  - generic [ref=f38e99]: 1m 02s
+              - generic [ref=f38e100]:
+                - generic [ref=f38e101]:
+                  - img [ref=f38e102]
+                  - button [ref=f38e103]:
+                    - img [ref=f38e104]
+                - generic [ref=f38e108]:
+                  - generic [ref=f38e109]:
+                    - generic [ref=f38e110]: bg_music_loop.wav
+                    - generic [ref=f38e111]: WAV
+                  - generic [ref=f38e112]: 42.7 MB
+              - generic [ref=f38e113]:
+                - generic [ref=f38e114]:
+                  - img [ref=f38e115]
+                  - button [ref=f38e118]:
+                    - img [ref=f38e119]
+                - generic [ref=f38e123]:
+                  - generic [ref=f38e124]:
+                    - generic [ref=f38e125]: subtitles_es.vtt
+                    - generic [ref=f38e126]: VTT
+                  - generic [ref=f38e127]: 9 KB
+          - generic [ref=f38e128]:
+            - generic [ref=f38e130]: Caption Files
+            - generic [ref=f38e132]:
+              - generic [ref=f38e133]:
+                - img [ref=f38e135]
+                - generic [ref=f38e138]:
+                  - generic [ref=f38e139]:
+                    - generic [ref=f38e140]: captions_en.srt
+                    - generic [ref=f38e141]: 🇬🇧
+                  - generic [ref=f38e142]: 142 segments
+                - button "Attach" [ref=f38e143]
+              - generic [ref=f38e144]:
+                - img [ref=f38e146]
+                - generic [ref=f38e149]:
+                  - generic [ref=f38e150]:
+                    - generic [ref=f38e151]: subtitles_es.vtt
+                    - generic [ref=f38e152]: 🇪🇸
+                  - generic [ref=f38e153]: 138 segments
+                - button "Attach" [ref=f38e154]
+              - generic [ref=f38e155]:
+                - img [ref=f38e157]
+                - generic [ref=f38e160]:
+                  - generic [ref=f38e161]:
+                    - generic [ref=f38e162]: styled_jp.ass
+                    - generic [ref=f38e163]: 🇯🇵
+                  - generic [ref=f38e164]: 156 segments
+                - button "Attach" [ref=f38e165]
+        - complementary [ref=f38e166]:
+          - generic [ref=f38e167]:
+            - img [ref=f38e169]
+            - generic [ref=f38e171]:
+              - generic [ref=f38e172]: interview_final.mp4
+              - generic [ref=f38e173]: Video file
+          - generic [ref=f38e174]:
+            - generic [ref=f38e175]: Metadata
+            - generic [ref=f38e176]:
+              - generic [ref=f38e177]:
+                - generic [ref=f38e178]: Resolution
+                - generic [ref=f38e179]: 1920×1080
+              - generic [ref=f38e180]:
+                - generic [ref=f38e181]: Codec
+                - generic [ref=f38e182]: H.264
+              - generic [ref=f38e183]:
+                - generic [ref=f38e184]: Frame rate
+                - generic [ref=f38e185]: 29.97 fps
+              - generic [ref=f38e186]:
+                - generic [ref=f38e187]: Duration
+                - generic [ref=f38e188]: 4m 15s
+              - generic [ref=f38e189]:
+                - generic [ref=f38e190]: File size
+                - generic [ref=f38e191]: 284 MB
+              - generic [ref=f38e192]:
+                - generic [ref=f38e193]: Audio
+                - generic [ref=f38e194]: Stereo
+          - button "Use in Project" [ref=f38e195]:
+            - img
+            - text: Use in Project
+    - complementary [ref=e271]:
+      - button "Back to editor" [ref=e272]:
+        - img [ref=e273]
+        - text: Back to editor
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: Screens
+          - generic [ref=e278]: 10 screens
+        - generic [ref=e279]:
+          - button "Screen 1" [ref=e280]:
+            - generic [ref=e281]: Screen 1
+          - button "Screen 2" [ref=e282]:
+            - generic [ref=e283]: Screen 2
+          - button "Screen 3" [active] [ref=e284]:
+            - generic [ref=e285]: Screen 3
+          - button "Screen 4" [ref=e286]:
+            - generic [ref=e287]: Screen 4
+          - button "Screen 5" [ref=e288]:
+            - generic [ref=e289]: Screen 5
+          - button "Screen 6" [ref=e290]:
+            - generic [ref=e291]: Screen 6
+          - button "Screen 7" [ref=e292]:
+            - generic [ref=e293]: Screen 7
+          - button "Screen 8" [ref=e294]:
+            - generic [ref=e295]: Screen 8
+          - button "Screen 9" [ref=e296]:
+            - generic [ref=e297]: Screen 9
+          - button "Screen 10" [ref=e298]:
+            - generic [ref=e299]: Screen 10
+  - iframe [ref=e255]:
+    
+  - button "Open Intercom Messenger" [ref=e256] [cursor=pointer]:
+    - img [ref=e258]
+    - generic:
+      - img

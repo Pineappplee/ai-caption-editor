@@ -1,0 +1,174 @@
+- generic [ref=f65e3]:
+  - complementary [ref=f65e4]:
+    - generic [ref=f65e5]:
+      - img [ref=f65e7]
+      - generic [ref=f65e10]:
+        - paragraph [ref=f65e11]: AI Caption Editor
+        - paragraph [ref=f65e12]: Projects
+    - navigation [ref=f65e13]:
+      - button "Project" [ref=f65e14]:
+        - img [ref=f65e15]
+        - text: Project
+      - button "Edit" [ref=f65e17]:
+        - img [ref=f65e18]
+        - text: Edit
+      - button "Export" [ref=f65e22]:
+        - img [ref=f65e23]
+        - text: Export
+      - button "Settings" [ref=f65e26]:
+        - img [ref=f65e27]
+        - text: Settings
+    - button "New Project" [ref=f65e31] [cursor=pointer]
+  - main [ref=f65e32]:
+    - generic [ref=f65e33]:
+      - generic [ref=f65e35]:
+        - generic [ref=f65e36]:
+          - heading "Projects" [level=1] [ref=f65e37]
+          - paragraph [ref=f65e38]: Manage all your caption projects
+        - generic [ref=f65e41]:
+          - img [ref=f65e42]
+          - textbox "Search projects..." [ref=f65e45]
+      - generic [ref=f65e47]:
+        - generic [ref=f65e48]:
+          - generic [ref=f65e49]:
+            - button "All" [ref=f65e50]
+            - button "In Progress" [ref=f65e51]
+            - button "Complete" [ref=f65e52]
+            - button "Draft" [ref=f65e53]
+          - generic [ref=f65e54]:
+            - combobox [ref=f65e55]:
+              - option "Name ↓"
+              - option "Last Updated ↓" [selected]
+              - option "Date Created ↓"
+              - option "Name ↑"
+              - option "Last Updated ↑"
+              - option "Date Created ↑"
+            - img
+        - generic [ref=f65e56]:
+          - generic [ref=f65e57]: 9 projects
+          - generic [ref=f65e58]:
+            - button [ref=f65e59]:
+              - img [ref=f65e60]
+            - button [ref=f65e61]:
+              - img [ref=f65e62]
+          - button "New Project" [ref=f65e64]:
+            - img [ref=f65e65]
+            - text: New Project
+      - generic [ref=f65e69]:
+        - generic [ref=f65e70] [cursor=pointer]:
+          - img [ref=f65e72]
+          - heading "Weekly Recap" [level=3] [ref=f65e75]
+          - generic [ref=f65e77]: Draft
+          - generic [ref=f65e78]:
+            - generic [ref=f65e79]:
+              - img [ref=f65e80]
+              - text: 🇺🇸 EN
+            - generic [ref=f65e83]: 6m 54s
+            - generic [ref=f65e84]: 96 seg.
+          - paragraph [ref=f65e85]: Edited today
+          - button [ref=f65e86]:
+            - img [ref=f65e87]
+        - generic [ref=f65e91] [cursor=pointer]:
+          - img [ref=f65e93]
+          - heading "Conference Talk" [level=3] [ref=f65e96]
+          - generic [ref=f65e98]: Draft
+          - generic [ref=f65e99]:
+            - generic [ref=f65e100]:
+              - img [ref=f65e101]
+              - text: 🇺🇸 EN
+            - generic [ref=f65e104]: 45m 12s
+            - generic [ref=f65e105]: 1084 seg.
+          - paragraph [ref=f65e106]: Edited 6 hours ago
+          - button [ref=f65e107]:
+            - img [ref=f65e108]
+        - generic [ref=f65e112] [cursor=pointer]:
+          - img [ref=f65e114]
+          - heading "Customer Story" [level=3] [ref=f65e117]
+          - generic [ref=f65e119]: In Progress
+          - generic [ref=f65e120]:
+            - generic [ref=f65e121]:
+              - img [ref=f65e122]
+              - text: 🇩🇪 DE
+            - generic [ref=f65e125]: 12m 08s
+            - generic [ref=f65e126]: 184 seg.
+          - paragraph [ref=f65e127]: Edited 5 hours ago
+          - button [ref=f65e128]:
+            - img [ref=f65e129]
+        - generic [ref=f65e133] [cursor=pointer]:
+          - img [ref=f65e135]
+          - heading "Interview Final" [level=3] [ref=f65e138]
+          - generic [ref=f65e140]: In Progress
+          - generic [ref=f65e141]:
+            - generic [ref=f65e142]:
+              - img [ref=f65e143]
+              - text: 🇺🇸 EN
+            - generic [ref=f65e146]: 4m 15s
+            - generic [ref=f65e147]: 142 seg.
+          - paragraph [ref=f65e148]: Edited 2 hours ago
+          - button [ref=f65e149]:
+            - img [ref=f65e150]
+        - generic [ref=f65e154] [cursor=pointer]:
+          - img [ref=f65e156]
+          - heading "Client Testimonial" [level=3] [ref=f65e159]
+          - generic [ref=f65e161]: In Progress
+          - generic [ref=f65e162]:
+            - generic [ref=f65e163]:
+              - img [ref=f65e164]
+              - text: 🇺🇸 EN
+            - generic [ref=f65e167]: 3m 22s
+            - generic [ref=f65e168]: 88 seg.
+          - paragraph [ref=f65e169]: Edited 4 hours ago
+          - button [ref=f65e170]:
+            - img [ref=f65e171]
+        - generic [ref=f65e175] [cursor=pointer]:
+          - img [ref=f65e177]
+          - heading "Product Launch" [level=3] [ref=f65e180]
+          - generic [ref=f65e182]: Complete
+          - generic [ref=f65e183]:
+            - generic [ref=f65e184]:
+              - img [ref=f65e185]
+              - text: 🇫🇷 FR
+            - generic [ref=f65e188]: 8m 02s
+            - generic [ref=f65e189]: 218 seg.
+          - paragraph [ref=f65e190]: Edited yesterday
+          - button [ref=f65e191]:
+            - img [ref=f65e192]
+        - generic [ref=f65e196] [cursor=pointer]:
+          - img [ref=f65e198]
+          - heading "How-to Guide" [level=3] [ref=f65e201]
+          - generic [ref=f65e203]: Complete
+          - generic [ref=f65e204]:
+            - generic [ref=f65e205]:
+              - img [ref=f65e206]
+              - text: 🇫🇷 FR
+            - generic [ref=f65e209]: 15m 47s
+            - generic [ref=f65e210]: 412 seg.
+          - paragraph [ref=f65e211]: Edited 2 days ago
+          - button [ref=f65e212]:
+            - img [ref=f65e213]
+        - generic [ref=f65e217] [cursor=pointer]:
+          - img [ref=f65e219]
+          - heading "Podcast Episode 12" [level=3] [ref=f65e222]
+          - generic [ref=f65e224]: Draft
+          - generic [ref=f65e225]:
+            - generic [ref=f65e226]:
+              - img [ref=f65e227]
+              - text: 🇪🇸 ES
+            - generic [ref=f65e230]: 52m 40s
+            - generic [ref=f65e231]: 612 seg.
+          - paragraph [ref=f65e232]: Edited 3 days ago
+          - button [ref=f65e233]:
+            - img [ref=f65e234]
+        - generic [ref=f65e238] [cursor=pointer]:
+          - img [ref=f65e240]
+          - heading "Tutorial Series" [level=3] [ref=f65e243]
+          - generic [ref=f65e245]: Complete
+          - generic [ref=f65e246]:
+            - generic [ref=f65e247]:
+              - img [ref=f65e248]
+              - text: 🇯🇵 JP
+            - generic [ref=f65e251]: 24m 33s
+            - generic [ref=f65e252]: 301 seg.
+          - paragraph [ref=f65e253]: Edited last week
+          - button [ref=f65e254]:
+            - img [ref=f65e255]

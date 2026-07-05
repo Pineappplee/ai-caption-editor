@@ -1,0 +1,85 @@
+[    1133ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335
+[  207148ms] ReferenceError: Timeline is not defined
+    at EditorLayout (http://localhost:5173/src/pages/editor/index.tsx?t=1782908068383:149:28)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:12866:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4213:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:5569:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:6140:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:851:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:8429:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:8325:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:8309:6)
+    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:7994:27)
+[  207145ms] [WARNING] %s
+
+%s
+ An error occurred in the <EditorLayout> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/@vite/client:524
+[  213630ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/src/pages/editor/timeline.tsx?t=1782908075113:0
+[  213631ms] [ERROR] [vite] Failed to reload /src/pages/editor/timeline.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:524
+[  220709ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335
+[  239995ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ TimelineEditor 1. useCallback                useCallback
+2. useCallback                useCallback
+3. useSyncExternalStore       useSyncExternalStore
+4. useDebugValue              useDebugValue
+5. useCallback                useCallback
+6. useCallback                useCallback
+7. useSyncExternalStore       useSyncExternalStore
+8. useDebugValue              useDebugValue
+9. useCallback                useCallback
+10. useCallback               useCallback
+11. useSyncExternalStore      useSyncExternalStore
+12. useDebugValue             useDebugValue
+13. useState                  useState
+14. useState                  useState
+15. useState                  useState
+16. useState                  useState
+17. useState                  useState
+18. useState                  useState
+19. useState                  useState
+20. useState                  useState
+21. useState                  useState
+22. useRef                    useRef
+23. useRef                    useRef
+24. useCallback               useCallback
+25. useEffect                 useEffect
+26. useCallback               useCallback
+27. useCallback               useCallback
+28. useCallback               useCallback
+29. useCallback               useCallback
+30. useCallback               useCallback
+31. useCallback               useCallback
+32. useCallback               useCallback
+33. useCallback               useCallback
+34. useCallback               useCallback
+35. useCallback               useCallback
+36. useCallback               useCallback
+37. useCallback               useCallback
+38. useCallback               useEffect
+ @ http://localhost:5173/@vite/client:524
+[  240003ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at areHookInputsEqual (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4197:33)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4854:45)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:13377:5)
+    at exports.useEffect (http://localhost:5173/node_modules/.vite/deps/react.js?v=4030009e:716:31)
+    at useTimeline (http://localhost:5173/src/hooks/useTimeline.ts?t=1782908101437:247:2)
+    at TimelineEditor (http://localhost:5173/src/components/timeline/timeline-editor.tsx?t=1782908101437:337:287)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:12866:12)
+    at renderWithHooksAgain (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4268:16)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4219:17)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:5569:16)
+[  240000ms] [WARNING] %s
+
+%s
+ An error occurred in the <TimelineEditor> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/@vite/client:524
+[  261935ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335
+[  289268ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335
+[  302904ms] [ERROR] WebSocket connection to 'ws://localhost:5173/?token=1pZS9mf6ftum' failed:  @ http://localhost:5173/@vite/client:864
+[  302905ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:992
+[  304190ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335

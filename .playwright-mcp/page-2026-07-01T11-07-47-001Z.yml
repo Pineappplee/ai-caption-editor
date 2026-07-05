@@ -1,0 +1,106 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - iframe [ref=e70]:
+        - generic [ref=f23e6]:
+          - generic [ref=f23e7]:
+            - generic [ref=f23e8]:
+              - img [ref=f23e10]
+              - generic [ref=f23e12]:
+                - generic [ref=f23e13]: AI Caption Editor
+                - generic [ref=f23e14]: Caption smarter, ship faster
+            - generic [ref=f23e15]:
+              - button "Features" [ref=f23e16]
+              - button "Pricing" [ref=f23e17]
+              - button "Docs" [ref=f23e18]
+            - generic [ref=f23e19]:
+              - button "Sign In" [ref=f23e20]
+              - button "Get Started Free" [ref=f23e21]
+          - generic [ref=f23e22]:
+            - generic [ref=f23e23]:
+              - heading "Caption smarter. Ship faster." [level=1] [ref=f23e25]
+              - paragraph [ref=f23e26]: AI-powered caption editing for video creators — transcribe, translate, and export in minutes
+              - generic [ref=f23e27]:
+                - button "Start for Free" [ref=f23e28]
+                - button "Watch Demo" [ref=f23e29]
+            - generic [ref=f23e30]:
+              - generic [ref=f23e32]:
+                - img [ref=f23e34]
+                - generic [ref=f23e37]:
+                  - generic [ref=f23e38]: Auto-Transcribe
+                  - generic [ref=f23e39]: Fast speech-to-text
+              - generic [ref=f23e41]:
+                - img [ref=f23e43]
+                - generic [ref=f23e47]:
+                  - generic [ref=f23e48]: AI Translation
+                  - generic [ref=f23e49]: Localize instantly
+              - generic [ref=f23e51]:
+                - img [ref=f23e53]
+                - generic [ref=f23e57]:
+                  - generic [ref=f23e58]: Style Editor
+                  - generic [ref=f23e59]: Design captions beautifully
+              - generic [ref=f23e61]:
+                - img [ref=f23e63]
+                - generic [ref=f23e66]:
+                  - generic [ref=f23e67]: One-Click Export
+                  - generic [ref=f23e68]: Deliver in minutes
+          - contentinfo [ref=f23e93]:
+            - generic [ref=f23e94]: © 2026 AI Caption Editor. All rights reserved.
+            - generic [ref=f23e95]:
+              - link "Privacy" [ref=f23e96] [cursor=pointer]:
+                - /url: "#"
+              - link "Terms" [ref=f23e97] [cursor=pointer]:
+                - /url: "#"
+              - link "Contact" [ref=f23e98] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - generic [ref=e23]: Bringing your screens to life
+        - generic [ref=e24]: This can take a moment while we set up your interactive preview.
+    - complementary [ref=e6]:
+      - button "Back to editor" [ref=e7]:
+        - img [ref=e8]
+        - text: Back to editor
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: Screens
+          - generic [ref=e13]: 16 screens
+        - generic [ref=e14]:
+          - button "Screen 1" [ref=e25]:
+            - generic [ref=e26]: Screen 1
+          - button "Screen 2" [ref=e27]:
+            - generic [ref=e28]: Screen 2
+          - button "Screen 3" [ref=e29]:
+            - generic [ref=e30]: Screen 3
+          - button "Screen 4" [ref=e31]:
+            - generic [ref=e32]: Screen 4
+          - button "Screen 5" [ref=e33]:
+            - generic [ref=e34]: Screen 5
+          - button "Screen 6" [ref=e35]:
+            - generic [ref=e36]: Screen 6
+          - button "Screen 7" [ref=e37]:
+            - generic [ref=e38]: Screen 7
+          - button "Screen 8" [ref=e39]:
+            - generic [ref=e40]: Screen 8
+          - button "Screen 9" [ref=e41]:
+            - generic [ref=e42]: Screen 9
+          - button "Screen 10" [ref=e43]:
+            - generic [ref=e44]: Screen 10
+          - button "Screen 11" [active] [ref=e45]:
+            - generic [ref=e46]: Screen 11
+          - button "Screen 12" [ref=e47]:
+            - generic [ref=e48]: Screen 12
+          - button "Screen 13" [ref=e49]:
+            - generic [ref=e50]: Screen 13
+          - button "Screen 14" [ref=e51]:
+            - generic [ref=e52]: Screen 14
+          - button "Screen 15" [ref=e53]:
+            - generic [ref=e54]: Screen 15
+          - button "Screen 16" [ref=e55]:
+            - generic [ref=e56]: Screen 16
+  - iframe [ref=e57]:
+    
+  - button "Open Intercom Messenger" [ref=e58] [cursor=pointer]:
+    - img [ref=e60]
+    - generic:
+      - img

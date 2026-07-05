@@ -1,0 +1,187 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - iframe [ref=e64]:
+        - generic [ref=f21e5]:
+          - complementary [ref=f21e6]:
+            - generic [ref=f21e7]:
+              - generic [ref=f21e8]:
+                - img [ref=f21e10]
+                - generic [ref=f21e13]:
+                  - generic [ref=f21e14]: AI Caption Editor
+                  - generic [ref=f21e15]: Media workspace
+              - navigation [ref=f21e16]:
+                - button "Project" [ref=f21e17]:
+                  - img [ref=f21e18]
+                  - generic [ref=f21e21]: Project
+                - button "Edit" [ref=f21e22]:
+                  - img [ref=f21e23]
+                  - generic [ref=f21e29]: Edit
+                - button "Export" [ref=f21e30]:
+                  - img [ref=f21e31]
+                  - generic [ref=f21e34]: Export
+                - button "Settings" [ref=f21e35]:
+                  - img [ref=f21e36]
+                  - generic [ref=f21e39]: Settings
+            - button "New Project" [ref=f21e40]:
+              - img
+              - text: New Project
+          - main [ref=f21e41]:
+            - generic [ref=f21e42]:
+              - generic [ref=f21e43]:
+                - heading "Media Library" [level=1] [ref=f21e44]
+                - paragraph [ref=f21e45]: Manage videos, audio, images, and caption assets
+              - generic [ref=f21e46]:
+                - generic [ref=f21e47]:
+                  - img
+                  - textbox "Search media files..." [ref=f21e48]
+                - button "All Types" [ref=f21e49]:
+                  - generic [ref=f21e50]: All Types
+                  - img
+                - generic [ref=f21e51]:
+                  - button [ref=f21e52]:
+                    - img
+                  - button [ref=f21e53]:
+                    - img
+                - button "Import Media" [ref=f21e54]:
+                  - img
+                  - text: Import Media
+            - generic [ref=f21e55]:
+              - button "All" [ref=f21e56]
+              - button "Videos" [ref=f21e57]
+              - button "Audio" [ref=f21e58]
+              - button "Images" [ref=f21e59]
+              - button "Captions" [ref=f21e60]
+            - generic [ref=f21e62]:
+              - generic [ref=f21e64]:
+                - generic [ref=f21e65]:
+                  - generic [ref=f21e66]: 4m 15s
+                  - img [ref=f21e67]
+                - generic [ref=f21e70]:
+                  - generic [ref=f21e71]:
+                    - generic [ref=f21e72]: interview_final.mp4
+                    - generic [ref=f21e73]: 1.2 GB · MP4
+                  - generic [ref=f21e74]: Transcribed
+              - generic [ref=f21e76]:
+                - generic [ref=f21e77]:
+                  - generic [ref=f21e78]: 8m 02s
+                  - img [ref=f21e79]
+                - generic [ref=f21e82]:
+                  - generic [ref=f21e83]:
+                    - generic [ref=f21e84]: product_launch.mov
+                    - generic [ref=f21e85]: 842 MB · MOV
+                  - generic [ref=f21e86]: No Captions
+              - generic [ref=f21e88]:
+                - generic [ref=f21e89]:
+                  - generic [ref=f21e90]: 12m 44s
+                  - img [ref=f21e91]
+                - generic [ref=f21e94]:
+                  - generic [ref=f21e95]:
+                    - generic [ref=f21e96]: podcast_episode_12.mp4
+                    - generic [ref=f21e97]: 2.4 GB · MP4
+                  - generic [ref=f21e98]: Processing
+              - generic [ref=f21e100]:
+                - generic [ref=f21e101]:
+                  - generic [ref=f21e102]: 2m 31s
+                  - img [ref=f21e103]
+                - generic [ref=f21e106]:
+                  - generic [ref=f21e107]:
+                    - generic [ref=f21e108]: social_reel_01.mp4
+                    - generic [ref=f21e109]: 318 MB · MP4
+                  - generic [ref=f21e110]: Transcribed
+              - generic [ref=f21e112]:
+                - generic [ref=f21e113]:
+                  - generic [ref=f21e114]: 6m 54s
+                  - img [ref=f21e115]
+                - generic [ref=f21e118]:
+                  - generic [ref=f21e119]:
+                    - generic [ref=f21e120]: tutorial_ep3.mov
+                    - generic [ref=f21e121]: 1.1 GB · MOV
+                  - generic [ref=f21e122]: No Captions
+              - generic [ref=f21e124]:
+                - generic [ref=f21e125]:
+                  - generic [ref=f21e126]: 18m 09s
+                  - img [ref=f21e127]
+                - generic [ref=f21e130]:
+                  - generic [ref=f21e131]:
+                    - generic [ref=f21e132]: webinar_session.mp4
+                    - generic [ref=f21e133]: 3.6 GB · MP4
+                  - generic [ref=f21e134]: Processing
+              - generic [ref=f21e136]:
+                - generic [ref=f21e137]:
+                  - generic [ref=f21e138]: 1m 48s
+                  - img [ref=f21e139]
+                - generic [ref=f21e142]:
+                  - generic [ref=f21e143]:
+                    - generic [ref=f21e144]: brand_intro.mp4
+                    - generic [ref=f21e145]: 624 MB · MP4
+                  - generic [ref=f21e146]: Transcribed
+              - generic [ref=f21e148]:
+                - generic [ref=f21e149]:
+                  - generic [ref=f21e150]: 9m 37s
+                  - img [ref=f21e151]
+                - generic [ref=f21e154]:
+                  - generic [ref=f21e155]:
+                    - generic [ref=f21e156]: meeting_notes.wav
+                    - generic [ref=f21e157]: 214 MB · WAV
+                  - generic [ref=f21e158]: No Captions
+            - generic [ref=f21e159]:
+              - paragraph [ref=f21e160]: Showing 8 of 34 files · 12.4 GB used
+              - generic [ref=f21e161]:
+                - button "Prev" [ref=f21e162]:
+                  - img
+                  - text: Prev
+                - button "Next" [ref=f21e163]:
+                  - text: Next
+                  - img
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - generic [ref=e23]: Bringing your screens to life
+        - generic [ref=e24]: This can take a moment while we set up your interactive preview.
+    - complementary [ref=e6]:
+      - button "Back to editor" [ref=e7]:
+        - img [ref=e8]
+        - text: Back to editor
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: Screens
+          - generic [ref=e13]: 16 screens
+        - generic [ref=e14]:
+          - button "Screen 1" [ref=e25]:
+            - generic [ref=e26]: Screen 1
+          - button "Screen 2" [ref=e27]:
+            - generic [ref=e28]: Screen 2
+          - button "Screen 3" [ref=e29]:
+            - generic [ref=e30]: Screen 3
+          - button "Screen 4" [ref=e31]:
+            - generic [ref=e32]: Screen 4
+          - button "Screen 5" [ref=e33]:
+            - generic [ref=e34]: Screen 5
+          - button "Screen 6" [ref=e35]:
+            - generic [ref=e36]: Screen 6
+          - button "Screen 7" [ref=e37]:
+            - generic [ref=e38]: Screen 7
+          - button "Screen 8" [ref=e39]:
+            - generic [ref=e40]: Screen 8
+          - button "Screen 9" [ref=e41]:
+            - generic [ref=e42]: Screen 9
+          - button "Screen 10" [ref=e43]:
+            - generic [ref=e44]: Screen 10
+          - button "Screen 11" [ref=e45]:
+            - generic [ref=e46]: Screen 11
+          - button "Screen 12" [ref=e47]:
+            - generic [ref=e48]: Screen 12
+          - button "Screen 13" [ref=e49]:
+            - generic [ref=e50]: Screen 13
+          - button "Screen 14" [active] [ref=e51]:
+            - generic [ref=e52]: Screen 14
+          - button "Screen 15" [ref=e53]:
+            - generic [ref=e54]: Screen 15
+          - button "Screen 16" [ref=e55]:
+            - generic [ref=e56]: Screen 16
+  - iframe [ref=e57]:
+    
+  - button "Open Intercom Messenger" [ref=e58] [cursor=pointer]:
+    - img [ref=e60]
+    - generic:
+      - img

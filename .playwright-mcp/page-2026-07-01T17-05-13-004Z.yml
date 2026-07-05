@@ -1,0 +1,51 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e11]: AI Caption Editor
+      - navigation [ref=e12]:
+        - link "Features" [ref=e13] [cursor=pointer]:
+          - /url: "#features"
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Docs" [ref=e15] [cursor=pointer]:
+          - /url: "#docs"
+      - generic [ref=e16]:
+        - button "Dashboard" [ref=e17] [cursor=pointer]
+        - button "Sign In" [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - heading "Caption smarter. Ship faster." [level=1] [ref=e22]
+      - paragraph [ref=e23]: AI-powered caption editing for video creators — transcribe, translate, and export in minutes
+      - generic [ref=e24]:
+        - button "Start for Free" [ref=e25] [cursor=pointer]
+        - button "Watch Demo" [ref=e26] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - img [ref=e31]
+        - heading "Auto-Transcribe" [level=3] [ref=e34]
+        - paragraph [ref=e35]: Fast speech-to-text
+      - generic [ref=e36]:
+        - img [ref=e38]
+        - heading "AI Translation" [level=3] [ref=e42]
+        - paragraph [ref=e43]: Localize instantly
+      - generic [ref=e44]:
+        - img [ref=e46]
+        - heading "Style Editor" [level=3] [ref=e52]
+        - paragraph [ref=e53]: Design captions beautifully
+      - generic [ref=e54]:
+        - img [ref=e56]
+        - heading "One-Click Export" [level=3] [ref=e59]
+        - paragraph [ref=e60]: Deliver in minutes
+  - contentinfo [ref=e61]:
+    - contentinfo [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: © 2026 AI Caption Editor. All rights reserved.
+        - generic [ref=e65]:
+          - link "Privacy" [ref=e66] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e67] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e68] [cursor=pointer]:
+            - /url: "#"

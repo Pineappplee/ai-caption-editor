@@ -1,0 +1,205 @@
+- generic [ref=f204e3]:
+  - banner [ref=f204e5]:
+    - generic [ref=f204e6]:
+      - button [ref=f204e7]:
+        - img [ref=f204e8]
+      - generic [ref=f204e10]:
+        - img [ref=f204e12]
+        - generic [ref=f204e15]: Interview Final
+    - generic [ref=f204e16]:
+      - button "Preview" [ref=f204e17]:
+        - img [ref=f204e18]
+        - text: Preview
+      - button "Export" [ref=f204e21]:
+        - img [ref=f204e22]
+        - text: Export
+      - button "Share" [ref=f204e25]:
+        - img [ref=f204e26]
+        - text: Share
+  - generic [ref=f204e32]:
+    - generic [ref=f204e33]:
+      - button "Select" [ref=f204e34]:
+        - img [ref=f204e35]
+      - button "Hand" [ref=f204e37]:
+        - img [ref=f204e38]
+      - button "Text" [ref=f204e43]:
+        - img [ref=f204e44]
+      - button "Shape" [ref=f204e46]:
+        - img [ref=f204e47]
+      - button "Image" [ref=f204e49]:
+        - img [ref=f204e50]
+      - button "Crop" [ref=f204e54]:
+        - img [ref=f204e55]
+      - button "Erase" [ref=f204e58]:
+        - img [ref=f204e59]
+      - button "Color Picker" [ref=f204e62]:
+        - img [ref=f204e63]
+    - generic [ref=f204e68]:
+      - generic [ref=f204e69]:
+        - generic [ref=f204e70]:
+          - generic [ref=f204e72]:
+            - generic [ref=f204e73]:
+              - img [ref=f204e74]
+              - generic [ref=f204e76]: Video Preview
+            - generic: Welcome to our interview series.
+          - generic [ref=f204e77]:
+            - button "Zoom Out" [ref=f204e78]:
+              - img [ref=f204e79]
+            - button "Fill" [active] [ref=f204e598]
+            - button "Zoom In" [ref=f204e83]:
+              - img [ref=f204e84]
+        - generic [ref=f204e87]:
+          - button [ref=f204e88]:
+            - img [ref=f204e89]
+          - button [ref=f204e91]:
+            - img [ref=f204e92]
+          - button [ref=f204e94]:
+            - img [ref=f204e95]
+          - generic [ref=f204e98]: 00:00.00 / 04:15.00
+          - slider [ref=f204e99] [cursor=pointer]: "0"
+          - button [ref=f204e101]:
+            - img [ref=f204e102]
+          - slider [ref=f204e106] [cursor=pointer]: "1"
+      - generic [ref=f204e109]:
+        - generic [ref=f204e110]:
+          - button "Captions" [ref=f204e111]:
+            - img [ref=f204e112]
+            - generic [ref=f204e114]: Captions
+          - button "Style" [ref=f204e115]:
+            - img [ref=f204e116]
+            - generic [ref=f204e122]: Style
+          - button "AI" [ref=f204e123]:
+            - img [ref=f204e124]
+            - generic [ref=f204e127]: AI
+          - button "Toggle panel" [ref=f204e128]:
+            - img [ref=f204e129]
+        - generic [ref=f204e133]:
+          - generic [ref=f204e134] [cursor=pointer]:
+            - generic [ref=f204e135]:
+              - button [ref=f204e136]:
+                - img [ref=f204e137]
+              - generic [ref=f204e139]: 00:00.00
+              - generic [ref=f204e140]: Host
+            - paragraph [ref=f204e141]: Welcome to our interview series.
+          - generic [ref=f204e142] [cursor=pointer]:
+            - generic [ref=f204e143]:
+              - button [ref=f204e144]:
+                - img [ref=f204e145]
+              - generic [ref=f204e147]: 00:03.50
+              - generic [ref=f204e148]: Host
+            - paragraph [ref=f204e149]: Today we are speaking with Dr. Sarah Chen.
+          - generic [ref=f204e150] [cursor=pointer]:
+            - generic [ref=f204e151]:
+              - button [ref=f204e152]:
+                - img [ref=f204e153]
+              - generic [ref=f204e155]: 00:07.20
+              - generic [ref=f204e156]: Host
+            - paragraph [ref=f204e157]: She is a leading researcher in artificial intelligence.
+          - generic [ref=f204e158] [cursor=pointer]:
+            - generic [ref=f204e159]:
+              - button [ref=f204e160]:
+                - img [ref=f204e161]
+              - generic [ref=f204e163]: 00:11.00
+              - generic [ref=f204e164]: Host
+            - paragraph [ref=f204e165]: Dr. Chen, thank you for joining us today.
+          - generic [ref=f204e166] [cursor=pointer]:
+            - generic [ref=f204e167]:
+              - button [ref=f204e168]:
+                - img [ref=f204e169]
+              - generic [ref=f204e171]: 00:15.80
+              - generic [ref=f204e172]: Dr. Chen
+            - paragraph [ref=f204e173]: Thank you for having me. I am excited to be here.
+          - generic [ref=f204e174] [cursor=pointer]:
+            - generic [ref=f204e175]:
+              - button [ref=f204e176]:
+                - img [ref=f204e177]
+              - generic [ref=f204e179]: 00:20.50
+              - generic [ref=f204e180]: Host
+            - paragraph [ref=f204e181]: Let us start with your background in AI research.
+          - generic [ref=f204e182] [cursor=pointer]:
+            - generic [ref=f204e183]:
+              - button [ref=f204e184]:
+                - img [ref=f204e185]
+              - generic [ref=f204e187]: 00:25.00
+              - generic [ref=f204e188]: Dr. Chen
+            - paragraph [ref=f204e189]: I began my work in machine learning about ten years ago.
+          - generic [ref=f204e190] [cursor=pointer]:
+            - generic [ref=f204e191]:
+              - button [ref=f204e192]:
+                - img [ref=f204e193]
+              - generic [ref=f204e195]: 00:29.50
+              - generic [ref=f204e196]: Dr. Chen
+            - paragraph [ref=f204e197]: My focus has been on natural language processing.
+          - generic [ref=f204e198] [cursor=pointer]:
+            - generic [ref=f204e199]:
+              - button [ref=f204e200]:
+                - img [ref=f204e201]
+              - generic [ref=f204e203]: 00:34.00
+              - generic [ref=f204e204]: Dr. Chen
+            - paragraph [ref=f204e205]: We have seen incredible progress in recent years.
+          - generic [ref=f204e206] [cursor=pointer]:
+            - generic [ref=f204e207]:
+              - button [ref=f204e208]:
+                - img [ref=f204e209]
+              - generic [ref=f204e211]: 00:38.50
+              - generic [ref=f204e212]: Dr. Chen
+            - paragraph [ref=f204e213]: The pace of innovation is truly remarkable.
+  - generic [ref=f204e218]:
+    - generic [ref=f204e219]:
+      - generic [ref=f204e220]:
+        - generic [ref=f204e221]:
+          - button "Zoom Out" [ref=f204e222]:
+            - img [ref=f204e223]
+          - slider [ref=f204e226] [cursor=pointer]: "8"
+          - button "Zoom In" [ref=f204e227]:
+            - img [ref=f204e228]
+          - generic [ref=f204e231]: 8x
+        - button "Split" [disabled] [ref=f204e233]:
+          - img [ref=f204e234]
+          - text: Split
+        - button "Merge" [ref=f204e240]:
+          - img [ref=f204e241]
+          - text: Merge
+      - generic [ref=f204e245]:
+        - generic [ref=f204e246]: 00:00.00
+        - button "Undo (Ctrl+Z)" [disabled] [ref=f204e248]:
+          - img [ref=f204e249]
+        - button "Redo (Ctrl+Shift+Z)" [disabled] [ref=f204e252]:
+          - img [ref=f204e253]
+    - generic [ref=f204e258]:
+      - generic [ref=f204e263]:
+        - generic [ref=f204e266]: 00:00
+        - generic [ref=f204e275]: 01:00
+        - generic [ref=f204e284]: 02:00
+        - generic [ref=f204e293]: 03:00
+        - generic [ref=f204e302]: 04:00
+      - generic [ref=f204e305]:
+        - generic [ref=f204e306]:
+          - generic [ref=f204e310]: Video
+          - generic [ref=f204e315] [cursor=pointer]: interview_final.mp4
+        - generic [ref=f204e322]: Audio
+        - generic [ref=f204e526]:
+          - generic [ref=f204e530]: Captions
+          - generic [ref=f204e533] [cursor=pointer]:
+            - generic [ref=f204e541]: She is a leading researcher in AI.
+            - generic [ref=f204e545]: Dr. Chen, thank you for joining us.
+            - generic [ref=f204e549]: Thank you for having me.
+            - generic [ref=f204e553]: Let us start with your background.
+            - generic [ref=f204e557]: I began my work in ML ten years ago.
+            - generic [ref=f204e561]: My focus has been on NLP.
+            - generic [ref=f204e565]: We have seen incredible progress.
+            - generic [ref=f204e569]: The pace of innovation is remarkable.
+            - generic [ref=f204e573]: What is the next big breakthrough?
+            - generic [ref=f204e577]: I believe multimodal AI will transform.
+            - generic [ref=f204e581]: Combining text, vision, and audio.
+  - generic [ref=f204e587]:
+    - generic [ref=f204e588]:
+      - generic [ref=f204e589]: interview_final.mp4
+      - generic [ref=f204e590]: "|"
+      - generic [ref=f204e591]: 1920×1080
+      - generic [ref=f204e592]: "|"
+      - generic [ref=f204e593]: 30fps
+    - generic [ref=f204e594]:
+      - generic [ref=f204e595]: "Captions: 14"
+      - generic [ref=f204e596]: "|"
+      - generic [ref=f204e597]: 00:00.00

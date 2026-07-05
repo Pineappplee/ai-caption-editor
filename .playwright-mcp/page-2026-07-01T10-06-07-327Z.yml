@@ -1,0 +1,129 @@
+- generic [ref=e1]:
+  - generic [ref=e260]:
+    - iframe [ref=e311]:
+      - generic [ref=f40e5]:
+        - generic:
+          - generic:
+            - navigation:
+              - generic:
+                - generic:
+                  - img
+                - generic: CaptionAI
+              - button "Project":
+                - img
+                - text: Project
+              - button "Edit":
+                - img
+                - text: Edit
+              - button "Export":
+                - img
+                - text: Export
+              - button "Settings":
+                - img
+                - text: Settings
+        - generic [ref=f40e7]:
+          - generic [ref=f40e8]:
+            - generic [ref=f40e9]:
+              - heading "Export Project" [level=2] [ref=f40e10]
+              - generic [ref=f40e11]: ⌘E
+            - button [ref=f40e12]:
+              - img
+          - generic [ref=f40e13]:
+            - generic [ref=f40e14]:
+              - generic [ref=f40e15]: Caption Files
+              - generic [ref=f40e16]:
+                - generic [ref=f40e20]:
+                  - generic [ref=f40e21]: SRT
+                  - generic [ref=f40e22]: SubRip — most compatible
+                - generic [ref=f40e25]:
+                  - generic [ref=f40e26]: VTT
+                  - generic [ref=f40e27]: WebVTT — web standard
+                - generic [ref=f40e30]:
+                  - generic [ref=f40e31]: ASS
+                  - generic [ref=f40e32]: Advanced SubStation
+                - generic [ref=f40e35]:
+                  - generic [ref=f40e36]: JSON
+                  - generic [ref=f40e37]: Structured data
+                - generic [ref=f40e40]:
+                  - generic [ref=f40e41]: CSV
+                  - generic [ref=f40e42]: Spreadsheet friendly
+              - generic [ref=f40e43]:
+                - generic [ref=f40e44]: Options
+                - generic [ref=f40e45]:
+                  - checkbox [checked] [ref=f40e46]:
+                    - generic:
+                      - img
+                  - generic [ref=f40e47]: Include speaker labels
+                - generic [ref=f40e48]:
+                  - checkbox [ref=f40e49]
+                  - generic [ref=f40e50]: Include confidence scores
+                - generic [ref=f40e51]:
+                  - checkbox [ref=f40e52]
+                  - generic [ref=f40e53]: Burn-in to video
+                - generic [ref=f40e54]:
+                  - checkbox [ref=f40e55]
+                  - generic [ref=f40e56]: Export all languages
+            - generic [ref=f40e58]:
+              - generic [ref=f40e59]: Video Export
+              - generic [ref=f40e60]:
+                - generic [ref=f40e61]:
+                  - generic [ref=f40e65]: MP4
+                  - generic [ref=f40e66]: H.264
+                - generic [ref=f40e67]:
+                  - generic [ref=f40e70]: MOV
+                  - generic [ref=f40e71]: ProRes
+                - generic [ref=f40e72]:
+                  - generic [ref=f40e75]: WebM
+                  - generic [ref=f40e76]: VP9
+              - generic [ref=f40e77]:
+                - generic [ref=f40e78]: Resolution
+                - generic [ref=f40e79]:
+                  - button "720p" [ref=f40e80]
+                  - button "1080p" [ref=f40e81]
+                  - button "4K" [ref=f40e82]
+              - generic [ref=f40e84]:
+                - generic [ref=f40e85]: Quality
+                - generic [ref=f40e86]: CRF 18
+              - generic [ref=f40e91]: Burn Captions
+          - generic [ref=f40e94]:
+            - generic [ref=f40e95]: Ready to export · ~2.4 MB estimated
+            - generic [ref=f40e96]:
+              - button "Cancel" [ref=f40e97]
+              - button "Export" [ref=f40e98]:
+                - img
+                - text: Export
+    - complementary [ref=e271]:
+      - button "Back to editor" [ref=e272]:
+        - img [ref=e273]
+        - text: Back to editor
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: Screens
+          - generic [ref=e278]: 10 screens
+        - generic [ref=e279]:
+          - button "Screen 1" [ref=e280]:
+            - generic [ref=e281]: Screen 1
+          - button "Screen 2" [ref=e282]:
+            - generic [ref=e283]: Screen 2
+          - button "Screen 3" [ref=e284]:
+            - generic [ref=e285]: Screen 3
+          - button "Screen 4" [ref=e286]:
+            - generic [ref=e287]: Screen 4
+          - button "Screen 5" [active] [ref=e288]:
+            - generic [ref=e289]: Screen 5
+          - button "Screen 6" [ref=e290]:
+            - generic [ref=e291]: Screen 6
+          - button "Screen 7" [ref=e292]:
+            - generic [ref=e293]: Screen 7
+          - button "Screen 8" [ref=e294]:
+            - generic [ref=e295]: Screen 8
+          - button "Screen 9" [ref=e296]:
+            - generic [ref=e297]: Screen 9
+          - button "Screen 10" [ref=e298]:
+            - generic [ref=e299]: Screen 10
+  - iframe [ref=e255]:
+    
+  - button "Open Intercom Messenger" [ref=e256] [cursor=pointer]:
+    - img [ref=e258]
+    - generic:
+      - img

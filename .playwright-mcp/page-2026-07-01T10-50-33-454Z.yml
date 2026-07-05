@@ -1,0 +1,44 @@
+- generic [active] [ref=f55e1]:
+  - generic [ref=f55e4]:
+    - banner [ref=f55e5]:
+      - generic [ref=f55e6]:
+        - button [ref=f55e7] [cursor=pointer]:
+          - img [ref=f55e8]
+          - img [ref=f55e10]
+        - textbox [disabled] [ref=f55e12]: Untitled
+      - generic [ref=f55e13]:
+        - button "Preview" [ref=f55e14] [cursor=pointer]:
+          - img [ref=f55e16]
+          - generic [ref=f55e18]: Preview
+        - button "Export" [disabled] [ref=f55e19]:
+          - generic [ref=f55e20]: Export
+        - button "Share" [ref=f55e21] [cursor=pointer]:
+          - generic [ref=f55e22]: Share
+    - generic [ref=f55e24]:
+      - generic [ref=f55e25]:
+        - generic [ref=f55e26]:
+          - button [ref=f55e27] [cursor=pointer]:
+            - img [ref=f55e29]
+          - button [ref=f55e31] [cursor=pointer]:
+            - img [ref=f55e32]
+        - button [ref=f55e35] [cursor=pointer]:
+          - img [ref=f55e37]
+      - generic [ref=f55e40]:
+        - button [ref=f55e42] [cursor=pointer]:
+          - img [ref=f55e44]
+        - button [ref=f55e47] [cursor=pointer]:
+          - img [ref=f55e49]
+        - button [ref=f55e51] [cursor=pointer]:
+          - img [ref=f55e53]
+      - button "100%" [ref=f55e60] [cursor=pointer]:
+        - generic [ref=f55e61]:
+          - generic [ref=f55e62]: 100%
+          - img [ref=f55e63]
+      - button "Upgrade" [ref=f55e67] [cursor=pointer]:
+        - generic [ref=f55e68]: Upgrade
+  - iframe [ref=f55e69]:
+    
+  - button "Open Intercom Messenger" [ref=f55e70] [cursor=pointer]:
+    - img [ref=f55e72]
+    - generic:
+      - img

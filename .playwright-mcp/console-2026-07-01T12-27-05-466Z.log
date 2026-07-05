@@ -1,0 +1,21 @@
+[     576ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335
+[   14049ms] Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+    at getRootForUpdatedFiber (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:2633:166)
+    at enqueueConcurrentRenderForLane (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:2623:11)
+    at forceStoreRerender (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4581:15)
+    at http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:4567:101
+    at http://localhost:5173/node_modules/.vite/deps/zustand.js?v=4030009e:12:36
+    at Set.forEach (<anonymous>)
+    at setState (http://localhost:5173/node_modules/.vite/deps/zustand.js?v=4030009e:12:14)
+    at setCurrentTime (http://localhost:5173/src/stores/editor-store.ts:44:28)
+    at http://localhost:5173/src/components/timeline/timeline-editor.tsx:382:4
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:12902:13)
+[   14044ms] [WARNING] %s
+
+%s
+ An error occurred in the <TimelineEditor> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/@vite/client:524
+[   74291ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335
+[   88004ms] [ERROR] WebSocket connection to 'ws://localhost:5173/?token=6BtdesKGPgrj' failed:  @ http://localhost:5173/@vite/client:864
+[   88008ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:992
+[   89119ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4030009e:14335

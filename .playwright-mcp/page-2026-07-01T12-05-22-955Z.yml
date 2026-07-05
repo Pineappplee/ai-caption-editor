@@ -1,0 +1,177 @@
+- generic [ref=f183e3]:
+  - banner [ref=f183e5]:
+    - generic [ref=f183e6]:
+      - button [ref=f183e7]:
+        - img [ref=f183e8]
+      - generic [ref=f183e10]:
+        - img [ref=f183e12]
+        - textbox [ref=f183e14]: Interview Final
+    - generic [ref=f183e15]:
+      - button "Preview" [ref=f183e16]
+      - button "Export" [ref=f183e17]
+      - button "Share" [ref=f183e18]
+  - generic [ref=f183e19]:
+    - generic [ref=f183e20]:
+      - generic [ref=f183e21]:
+        - img [ref=f183e22]
+        - generic [ref=f183e24]: Captions
+        - generic [ref=f183e25]: "14"
+      - generic [ref=f183e26]:
+        - generic [ref=f183e27] [cursor=pointer]:
+          - generic [ref=f183e28]:
+            - button [ref=f183e29]:
+              - img [ref=f183e30]
+            - generic [ref=f183e32]: 00:00.00
+            - generic [ref=f183e33]: Host
+          - paragraph [ref=f183e34]: Welcome to our interview series.
+        - generic [ref=f183e35] [cursor=pointer]:
+          - generic [ref=f183e36]:
+            - button [ref=f183e37]:
+              - img [ref=f183e38]
+            - generic [ref=f183e40]: 00:03.50
+            - generic [ref=f183e41]: Host
+          - paragraph [ref=f183e42]: Today we are speaking with Dr. Sarah Chen.
+        - generic [ref=f183e43] [cursor=pointer]:
+          - generic [ref=f183e44]:
+            - button [ref=f183e45]:
+              - img [ref=f183e46]
+            - generic [ref=f183e48]: 00:07.20
+            - generic [ref=f183e49]: Host
+          - paragraph [ref=f183e50]: She is a leading researcher in artificial intelligence.
+        - generic [ref=f183e51] [cursor=pointer]:
+          - generic [ref=f183e52]:
+            - button [ref=f183e53]:
+              - img [ref=f183e54]
+            - generic [ref=f183e56]: 00:11.00
+            - generic [ref=f183e57]: Host
+          - paragraph [ref=f183e58]: Dr. Chen, thank you for joining us today.
+        - generic [ref=f183e59] [cursor=pointer]:
+          - generic [ref=f183e60]:
+            - button [ref=f183e61]:
+              - img [ref=f183e62]
+            - generic [ref=f183e64]: 00:15.80
+            - generic [ref=f183e65]: Dr. Chen
+          - paragraph [ref=f183e66]: Thank you for having me. I am excited to be here.
+        - generic [ref=f183e67] [cursor=pointer]:
+          - generic [ref=f183e68]:
+            - button [ref=f183e69]:
+              - img [ref=f183e70]
+            - generic [ref=f183e72]: 00:20.50
+            - generic [ref=f183e73]: Host
+          - paragraph [ref=f183e74]: Let us start with your background in AI research.
+        - generic [ref=f183e75] [cursor=pointer]:
+          - generic [ref=f183e76]:
+            - button [ref=f183e77]:
+              - img [ref=f183e78]
+            - generic [ref=f183e80]: 00:25.00
+            - generic [ref=f183e81]: Dr. Chen
+          - paragraph [ref=f183e82]: I began my work in machine learning about ten years ago.
+        - generic [ref=f183e83] [cursor=pointer]:
+          - generic [ref=f183e84]:
+            - button [ref=f183e85]:
+              - img [ref=f183e86]
+            - generic [ref=f183e88]: 00:29.50
+            - generic [ref=f183e89]: Dr. Chen
+          - paragraph [ref=f183e90]: My focus has been on natural language processing.
+        - generic [ref=f183e91] [cursor=pointer]:
+          - generic [ref=f183e92]:
+            - button [ref=f183e93]:
+              - img [ref=f183e94]
+            - generic [ref=f183e96]: 00:34.00
+            - generic [ref=f183e97]: Dr. Chen
+          - paragraph [ref=f183e98]: We have seen incredible progress in recent years.
+        - generic [ref=f183e99] [cursor=pointer]:
+          - generic [ref=f183e100]:
+            - button [ref=f183e101]:
+              - img [ref=f183e102]
+            - generic [ref=f183e104]: 00:38.50
+            - generic [ref=f183e105]: Dr. Chen
+          - paragraph [ref=f183e106]: The pace of innovation is truly remarkable.
+    - generic [ref=f183e107]:
+      - generic [ref=f183e109]:
+        - generic [ref=f183e110]:
+          - img [ref=f183e111]
+          - generic [ref=f183e113]: Video Preview
+        - generic [ref=f183e212]: Welcome to our interview series.
+      - generic [ref=f183e115]:
+        - button [ref=f183e116]:
+          - img [ref=f183e117]
+        - button [ref=f183e119]:
+          - img [ref=f183e209]
+        - button [ref=f183e122]:
+          - img [ref=f183e123]
+        - generic [ref=f183e126]: 00:00.00 / 04:15.00
+        - slider [ref=f183e127] [cursor=pointer]: "0"
+        - button [ref=f183e129]:
+          - img [ref=f183e130]
+        - button [ref=f183e134]:
+          - img [ref=f183e135]
+    - generic [ref=f183e140]:
+      - generic [ref=f183e141]:
+        - button "Style" [ref=f183e142]:
+          - img [ref=f183e143]
+          - text: Style
+        - button "AI" [ref=f183e149]:
+          - img [ref=f183e150]
+          - text: AI
+      - generic [ref=f183e154]:
+        - generic [ref=f183e155]:
+          - paragraph [ref=f183e156]: Font
+          - generic [ref=f183e157]:
+            - combobox [ref=f183e158]:
+              - option "Inter" [selected]
+              - option "Arial"
+              - option "Helvetica"
+              - option "Georgia"
+              - option "Roboto"
+            - generic [ref=f183e159]:
+              - generic [ref=f183e160]:
+                - generic [ref=f183e161]: Size
+                - spinbutton [ref=f183e162]: "24"
+              - generic [ref=f183e163]:
+                - generic [ref=f183e164]: Weight
+                - combobox [ref=f183e165]:
+                  - option "Regular"
+                  - option "Medium"
+                  - option "Semi Bold" [selected]
+                  - option "Bold"
+            - generic [ref=f183e166]:
+              - button "Bold" [ref=f183e167]:
+                - img [ref=f183e168]
+              - button "Italic" [ref=f183e170]:
+                - img [ref=f183e171]
+              - button "Underline" [ref=f183e173]:
+                - img [ref=f183e174]
+        - generic [ref=f183e176]:
+          - paragraph [ref=f183e177]: Color
+          - generic [ref=f183e178]:
+            - generic [ref=f183e179]:
+              - generic [ref=f183e180]: Text
+              - button [ref=f183e181]
+              - button [ref=f183e182]
+              - button [ref=f183e183]
+              - button [ref=f183e184]
+              - button [ref=f183e185]
+              - button [ref=f183e186]
+            - generic [ref=f183e187]:
+              - generic [ref=f183e188]: Background
+              - button [ref=f183e189]
+              - button [ref=f183e190]
+              - button [ref=f183e191]
+              - button [ref=f183e192]
+              - button [ref=f183e193]
+        - generic [ref=f183e194]:
+          - paragraph [ref=f183e195]: Position
+          - generic [ref=f183e196]:
+            - button "top" [ref=f183e197]
+            - button "middle" [ref=f183e198]
+            - button "bottom" [ref=f183e199]
+        - generic [ref=f183e200]:
+          - paragraph [ref=f183e201]: Effects
+          - generic [ref=f183e202]:
+            - generic [ref=f183e203] [cursor=pointer]:
+              - checkbox "Outline" [checked] [ref=f183e204]
+              - generic [ref=f183e205]: Outline
+            - generic [ref=f183e206] [cursor=pointer]:
+              - checkbox "Drop Shadow" [checked] [ref=f183e207]
+              - generic [ref=f183e208]: Drop Shadow

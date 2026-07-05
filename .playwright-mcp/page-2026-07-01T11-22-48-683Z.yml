@@ -1,0 +1,51 @@
+- generic [ref=f35e3]:
+  - banner [ref=f35e4]:
+    - banner [ref=f35e5]:
+      - generic [ref=f35e6]:
+        - img [ref=f35e8]
+        - generic [ref=f35e11]: AI Caption Editor
+      - navigation [ref=f35e12]:
+        - link "Features" [ref=f35e13] [cursor=pointer]:
+          - /url: "#features"
+        - link "Pricing" [ref=f35e14] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Docs" [ref=f35e15] [cursor=pointer]:
+          - /url: "#docs"
+      - generic [ref=f35e16]:
+        - button "Sign In" [ref=f35e17] [cursor=pointer]
+        - button "Get Started Free" [ref=f35e18] [cursor=pointer]
+  - main [ref=f35e19]:
+    - generic [ref=f35e21]:
+      - heading "Caption smarter. Ship faster." [level=1] [ref=f35e22]
+      - paragraph [ref=f35e23]: AI-powered caption editing for video creators — transcribe, translate, and export in minutes
+      - generic [ref=f35e24]:
+        - button "Start for Free" [ref=f35e25] [cursor=pointer]
+        - button "Watch Demo" [ref=f35e26] [cursor=pointer]
+    - generic [ref=f35e28]:
+      - generic [ref=f35e29]:
+        - img [ref=f35e31]
+        - heading "Auto-Transcribe" [level=3] [ref=f35e34]
+        - paragraph [ref=f35e35]: Fast speech-to-text
+      - generic [ref=f35e36]:
+        - img [ref=f35e38]
+        - heading "AI Translation" [level=3] [ref=f35e42]
+        - paragraph [ref=f35e43]: Localize instantly
+      - generic [ref=f35e44]:
+        - img [ref=f35e46]
+        - heading "Style Editor" [level=3] [ref=f35e52]
+        - paragraph [ref=f35e53]: Design captions beautifully
+      - generic [ref=f35e54]:
+        - img [ref=f35e56]
+        - heading "One-Click Export" [level=3] [ref=f35e59]
+        - paragraph [ref=f35e60]: Deliver in minutes
+  - contentinfo [ref=f35e61]:
+    - contentinfo [ref=f35e62]:
+      - generic [ref=f35e63]:
+        - paragraph [ref=f35e64]: © 2026 AI Caption Editor. All rights reserved.
+        - generic [ref=f35e65]:
+          - link "Privacy" [ref=f35e66] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=f35e67] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=f35e68] [cursor=pointer]:
+            - /url: "#"
