@@ -1,0 +1,43 @@
+# ── Environment files (NEVER commit real credentials) ──
+.env
+.env.local
+.env.production
+.env.staging
+.env.*.local
+
+# ── macOS ─────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editor / IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Node / Frontend ───────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ── Java / Maven backend ─────────────────────────────
+target/
+*.class
+*.jar
+*.war
+
+# ── Uploads / runtime data ───────────────────────────
+backend/uploads/
+ai-caption-editor/uploads/
+
+# ── Test screenshots & recordings ────────────────────
+test-*.png
+screen-*.png
+*.webp
+
+# ── Misc ─────────────────────────────────────────────
+*.log
+*.tmp
+opencode.jsonc

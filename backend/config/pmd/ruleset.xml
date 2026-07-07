@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Custom Ruleset"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+    <description>Custom PMD Ruleset for AI Caption Editor Backend</description>
+
+    <!-- Best Practices -->
+    <rule ref="category/java/bestpractices.xml">
+        <exclude name="UseVarargs"/>
+        <exclude name="GuardLogStatement"/>
+        <exclude name="PreserveStackTrace"/>
+        <exclude name="LooseCoupling"/>
+        <exclude name="LiteralsFirstInComparisons"/>
+    </rule>
+
+    <!-- Code Style -->
+    <rule ref="category/java/codestyle.xml">
+        <exclude name="AtLeastOneConstructor"/>
+        <exclude name="OnlyOneReturn"/>
+        <exclude name="ShortVariable"/>
+        <exclude name="LongVariable"/>
+        <exclude name="CommentDefaultAccessModifier"/>
+        <exclude name="LocalVariableCouldBeFinal"/>
+        <exclude name="MethodArgumentCouldBeFinal"/>
+        <exclude name="UnnecessaryAnnotationValueElement"/>
+        <exclude name="ControlStatementBraces"/>
+        <exclude name="UselessParentheses"/>
+        <exclude name="UseDiamondOperator"/>
+        <exclude name="ShortMethodName"/>
+        <exclude name="ShortClassName"/>
+        <exclude name="FieldNamingConventions"/>
+        <exclude name="PrematureDeclaration"/>
+        <exclude name="UseUnderscoresInNumericLiterals"/>
+        <exclude name="AvoidRethrowingException"/>
+    </rule>
+
+    <!-- Design -->
+    <rule ref="category/java/design.xml">
+        <exclude name="UseObjectForClearerAPI"/>
+        <exclude name="LoosePackageCoupling"/>
+        <exclude name="LawOfDemeter"/>
+        <exclude name="CyclomaticComplexity"/>
+        <exclude name="CognitiveComplexity"/>
+        <exclude name="NPathComplexity"/>
+        <exclude name="CouplingBetweenObjects"/>
+        <exclude name="AvoidThrowingRawExceptionTypes"/>
+        <exclude name="SignatureDeclareThrowsException"/>
+        <exclude name="ExceptionAsFlowControl"/>
+        <exclude name="AvoidCatchingGenericException"/>
+        <exclude name="AvoidDeeplyNestedIfStmts"/>
+        <exclude name="AvoidRethrowingException"/>
+        <exclude name="AvoidLiteralsInIfCondition"/>
+    </rule>
+
+    <!-- Error Prone -->
+    <rule ref="category/java/errorprone.xml">
+        <exclude name="EmptyCatchBlock"/>
+        <exclude name="MissingSerialVersionUID"/>
+        <exclude name="AssignmentInOperand"/>
+        <exclude name="UseLocaleWithCaseConversions"/>
+        <exclude name="CloseResource"/>
+        <exclude name="AvoidRethrowingException"/>
+    </rule>
+
+    <!-- Multithreading -->
+    <rule ref="category/java/multithreading.xml">
+        <exclude name="AvoidUsingVolatile"/>
+        <exclude name="DoNotUseThreads"/>
+        <exclude name="AvoidSynchronizedAtMethodLevel"/>
+    </rule>
+
+    <!-- Performance -->
+    <rule ref="category/java/performance.xml">
+        <exclude name="AppendCharacterWithChar"/>
+        <exclude name="UseIndexOfChar"/>
+        <exclude name="AvoidInstantiatingObjectsInLoops"/>
+        <exclude name="InsufficientStringBufferDeclaration"/>
+        <exclude name="ConsecutiveAppendsShouldReuse"/>
+        <exclude name="InefficientEmptyStringCheck"/>
+        <exclude name="AvoidFileStream"/>
+        <exclude name="UseConcurrentHashMap"/>
+    </rule>
+</ruleset>

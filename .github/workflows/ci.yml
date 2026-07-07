@@ -1,0 +1,75 @@
+name: Java CI/CD with Maven
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: ai_caption_editor
+        ports:
+          - 5433:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Cache Maven packages
+      uses: actions/cache@v4
+      with:
+        path: ~/.m2/repository
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          ${{ runner.os }}-maven-
+
+    - name: Run Maven Validate (Style and Format Check)
+      run: |
+        cd backend
+        mvn checkstyle:check
+
+    - name: Build and Run Tests with Quality Audits
+      env:
+        DB_HOST: localhost
+        DB_PORT: 5433
+        DB_NAME: ai_caption_editor
+        DB_USER: postgres
+        DB_PASSWORD: postgres
+        SPRING_PROFILES_ACTIVE: test
+      run: |
+        cd backend
+        mvn clean verify -Ddependency-check.skip=true
+
+    - name: Publish Test Report
+      uses: scacap/action-surefire-report@v1
+      if: always()
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        report_paths: '**/target/surefire-reports/TEST-*.xml'
+
+    - name: Upload Coverage Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: jacoco-coverage-report
+        path: backend/target/site/jacoco/

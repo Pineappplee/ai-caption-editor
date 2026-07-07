@@ -1,0 +1,72 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: ai-caption-editor-backend
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5433}/${DB_NAME:ai_caption_editor}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: false
+    open-in-view: false
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+    doc-expansion: list
+
+logging:
+  level:
+    root: INFO
+    com.aicaptioneditor: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: INFO
+    org.flywaydb: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+storage:
+  local:
+    base-dir: uploads
+
+app:
+  jwt:
+    secret: ${APP_JWT_SECRET}
+    expiration-ms: ${APP_JWT_EXPIRATION_MS:900000}
+    refresh-expiration-ms: ${APP_JWT_REFRESH_EXPIRATION_MS:604800000}
+
+ai:
+  provider: ${AI_PROVIDER:mock}
+  ollama:
+    url: ${OLLAMA_URL:http://localhost:11434}
+    model: ${OLLAMA_MODEL:llama3}
+  openrouter:
+    url: ${OPENROUTER_URL:https://openrouter.ai/api/v1}
+    api-key: ${OPENROUTER_API_KEY:}
+    model: ${OPENROUTER_MODEL:meta-llama/llama-3-8b-instruct:free}

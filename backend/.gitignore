@@ -1,0 +1,29 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Environment variables (NEVER commit)
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Uploaded files (runtime data)
+uploads/
+
+# Compiled classes
+*.class
