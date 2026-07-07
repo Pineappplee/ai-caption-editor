@@ -6,9 +6,9 @@ An open-source, self-hostable AI Caption & Subtitle Editor application. It featu
 
 ## Repository Structure
 
-* [ai-caption-editor/](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/ai-caption-editor) - Frontend SPA built with React, Vite, TailwindCSS, and TypeScript.
-* [backend/](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/backend) - Production-ready Spring Boot backend engine built with Java 21 and PostgreSQL.
-* [docs/](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/ai-caption-editor/docs) - Architectural Decision Records (ADRs) and design assets.
+* [ai-caption-editor/](./ai-caption-editor) - Frontend SPA built with React, Vite, TailwindCSS, and TypeScript.
+* [backend/](./backend) - Production-ready Spring Boot backend engine built with Java 21 and PostgreSQL.
+* [docs/](./ai-caption-editor/docs) - Architectural Decision Records (ADRs) and design assets.
 
 ---
 
@@ -96,9 +96,9 @@ We maintain high quality and security standards across the codebase:
 
 For detailed instructions and architectures, see:
 
-* [ARCHITECTURE.md](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/ARCHITECTURE.md) - Design patterns, modular structures, and flows.
-* [API.md](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/API.md) - REST API routes, schemas, and usage examples.
-* [CONTRIBUTING.md](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/CONTRIBUTING.md) - Onboarding guide, coding standards, and PR workflows.
-* [SECURITY.md](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/SECURITY.md) - Vulnerability disclosures and policy guidelines.
-* [CHANGELOG.md](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/CHANGELOG.md) - Release history.
-* [CODE_OF_CONDUCT.md](file:///Users/jarviskamal123gmail.com/Desktop/AI_SUBTITLE/CODE_OF_CONDUCT.md) - Contributor rules of engagement.
+* [ARCHITECTURE.md](./ARCHITECTURE.md) - Design patterns, modular structures, and flows.
+* [API.md](./API.md) - REST API routes, schemas, and usage examples.
+* [CONTRIBUTING.md](./CONTRIBUTING.md) - Onboarding guide, coding standards, and PR workflows.
+* [SECURITY.md](./SECURITY.md) - Vulnerability disclosures and policy guidelines.
+* [CHANGELOG.md](./CHANGELOG.md) - Release history.
+* [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) - Contributor rules of engagement.
