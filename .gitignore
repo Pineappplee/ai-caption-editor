@@ -41,3 +41,4 @@ screen-*.png
 *.log
 *.tmp
 opencode.jsonc
+.playwright-mcp/

@@ -1,5 +1,0 @@
-[     164ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=bcb6f3f5:14335
-[  116807ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=bcb6f3f5:14335
-[  128989ms] [WARNING] No routes matched location "/edit"  @ http://localhost:5173/@vite/client:524
-[  128991ms] [WARNING] No routes matched location "/edit"  @ http://localhost:5173/@vite/client:524
-[  133898ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=bcb6f3f5:14335
