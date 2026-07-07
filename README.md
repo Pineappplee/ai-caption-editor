@@ -24,18 +24,53 @@ An open-source, self-hostable AI Caption & Subtitle Editor application. It featu
 
 ## Local Development & Setup
 
-### Start the Entire Stack in One Command
+### 1. Configure Environment Files
 
-You can run the entire backend and database with:
+Before running the application, copy the example environment files and set your variables:
 
+**Backend Setup:**
 ```bash
 cd backend
+cp .env.example .env
+```
+Open `backend/.env` and define:
+- `DB_PASSWORD` (use a strong database password)
+- `APP_JWT_SECRET` (generate using `openssl rand -base64 64` or any 256-bit key)
+
+**Frontend Setup:**
+```bash
+cd ../ai-caption-editor
+cp .env.example .env
+```
+Open `ai-caption-editor/.env` and select your mode:
+- Set `VITE_SERVICE_MODE=http` to connect to the backend (or `mock` to run offline in standalone browser mode).
+
+### 2. Start the Backend Stack
+
+Run the backend and database services together in Docker:
+
+```bash
+cd ../backend
 docker compose up --build
 ```
 
-The services will spin up:
+The backend services will spin up:
 - **PostgreSQL Database:** Running on port `5433` (development) and persisting data locally.
 - **Spring Boot Backend:** Running on port `8080` (contexts mapped to `/api/v1/`).
+
+### 3. Start the Frontend Server
+
+Install dependencies and start the React/Vite development server:
+
+```bash
+cd ../ai-caption-editor
+npm install
+npm run dev
+```
+
+The frontend will be accessible at:
+- **Local Application URL:** [http://localhost:3000](http://localhost:3000) (or whichever port Vite binds to).
+
 
 ---
 
